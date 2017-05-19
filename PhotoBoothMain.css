@@ -1,0 +1,45 @@
+@font-face {
+    font-family: GoudyStd-Bold;
+    src: url('Assets/fontGoudy/GoudyStd-Bold.otf') format('opentype');
+}
+main {
+    font-family: GoudyStd-Bold, Sans-Serif;
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    color: #885541;
+    font-size: 56px;
+    margin-left: 50px;
+    
+}
+div.border { 
+    border-bottom: 2px solid #000;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: none;
+    border-color: #885541;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #885541;
+    width: 300px;
+    float: right;
+    align-items: left;
+}
+
+.navButton {
+    background-color: #885541;
+}
+.hiddenNavBox{
+    background-color: #CFBBB2;
+}
+input#fileSelector {
+     background-color: #885541;
+     color: white;
+     display: flex;
+    flex-direction: column;
+}
+
